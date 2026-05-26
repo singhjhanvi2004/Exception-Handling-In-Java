@@ -43,7 +43,7 @@ It is used to explicitly throw an exception.It is used inside a method body.
 
 
 ## 
-```
+```java
 class Main {
     static void checkAge(int age){
         if(age<18)
@@ -63,7 +63,8 @@ class Main {
 
 It is used to declare that a method might throw an exception.It is used in method signature.
 ## 
-```class Main {
+```java
+class Main {
     public static void main(String[] args) throws ArithmeticException {
      int a = 5;
      int b = 0;
@@ -82,7 +83,7 @@ It is used to declare that a method might throw an exception.It is used in metho
 
 It refers to the user defined Exception developed by the programmer for specific error scenario.
 ## 
-```
+```java
 import java.util.Scanner;
 class InvalidAgeException extends Exception {
     public InvalidAgeException(String m) {
