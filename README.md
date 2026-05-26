@@ -57,17 +57,6 @@ class Main {
     }
 }
 ```
-## 
-**Throw**
-
-It is used to explicitly throw an exception.It is used inside a method body.
-
-
-## 
-**Throw**
-
-It is used to explicitly throw an exception.It is used inside a method body.
-
 
 ## 
 **Throws**
